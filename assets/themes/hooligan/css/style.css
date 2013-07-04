@@ -403,3 +403,17 @@ div.sidebar section img.icon {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
+
+.lf_user_loggedout {
+  color: #7cfc00 !important;
+  -webkit-transition: all 0.3s !important;
+  -moz-transition: all 0.3s !important;
+  -ms-transition: all 0.3s !important;
+  -o-transition: all 0.3s !important;
+  transition: all 0.3s !important;
+}
+
+.lf_user_loggedout:hover {
+  color: #E5FECC !important;
+  text-decoration: none !important;
+}
