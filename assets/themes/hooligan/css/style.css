@@ -17,7 +17,6 @@ body {
   height: 100%;
   font-family: 'Oxygen', sans-serif;
   font-size: 14px;
-  height: 100%;
 }
 
 /* line 26, ../_sass/_base.scss */
@@ -279,21 +278,41 @@ div.content div#page-index {
 }
 
 /* line 254, ../_sass/_base.scss */
-.zocial.googleplus:focus,
-.zocial.googleplus:hover {
+.googleplus:focus,
+.googleplus:hover {
   color: #e01d30 !important;
 }
 
 /* line 259, ../_sass/_base.scss */
-.zocial.twitter:focus,
-.zocial.twitter:hover {
+.twitter:focus,
+.twitter:hover {
   color: #46c0fb !important;
 }
 
 /* line 265, ../_sass/_base.scss */
-.zocial.linkedin:focus,
-.zocial.linkedin:hover {
+.linkedin:focus,
+.linkedin:hover {
   color: #50a1cb !important;
+}
+
+.github:focus,
+.github:hover {
+  color: #ffffff !important;
+}
+
+.facebook:focus,
+.facebook:hover {
+  color: #3B5998 !important;
+}
+
+.steam:focus,
+.steam:hover {
+  color: #ffffff !important;
+}
+
+.coderbyte:focus,
+.coderbyte:hover {
+  color: #d37808 !important;
 }
 
 /* Layout */
@@ -432,5 +451,14 @@ img.avatar {
 }
 
 div.about-me-social {
+  height: 100%;
   margin-top: 10px;
+}
+
+.about-me-social a{
+  color: #bbb !important;
+  text-shadow: 1px 1px 1px #000 !important;
+  height: 100% !important;
+  font-family: 'Oxygen', sans-serif !important;
+  font-size: 14px !important;
 }

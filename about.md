@@ -11,9 +11,30 @@ nav_title: About Me
 		<a href="/about.html">
 			<img class="avatar" src="/images/avatar.png" title="Ben Brouse" alt="avatar" />
 		</a>
-		<div class="well well-small about-me-social">
-			<p>Play on steam</p>
-			<p>link on linked in</p>
+		<div class="well well-small about-me-social pull-right">
+			<a href="https://github.com/{{ site.author.github }}" class="github icon" target="_blank">
+				<span>Github</span>
+			</a>
+			<br>
+			<a href="https://plus.google.com/{{ site.author.googleplus }}" class="googleplus icon" target="_blank">
+				<span>Google+</span>
+			</a>
+			<br>
+			<a href="http://www.facebook.com/{{ site.author.facebook }}" class="facebook icon" target="_blank">
+				<span>Facebook</span>
+			</a>
+			<br>
+			<a href="http://www.linkedin.com/in/{{ site.author.linkedin }}" class="linkedin icon" target="_blank">
+				<span>LinkedIn</span>
+			</a>
+			<br>
+			<a href="http://www.steamcommunity.com/id/{{ site.author.steam }}" class="steam icon" target="_blank">
+				<span>Steam</span>
+			</a>
+			<br>
+			<a href="http://www.coderbyte.com/CodingArea/Profile/?user={{ site.author.coderbyte }}" class="coderbyte icon" target="_blank">
+				<span>Coderbyte</span>
+			</a>
 		</div>
 	</div>
 
