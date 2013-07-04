@@ -46,17 +46,17 @@
           </a>      
 
 
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <a class="brand" href="{{ site.JB.archive_path }}">{{ site.title }}</a>
 
 
           <div class="nav-collapse">
             <ul class="nav">
               {% assign pages_list = site.pages %}
               {% assign group = 'navigation' %}
+              {% assign title_type = 'nav_title' %}
               {% include JB/pages_list %}
             </ul>
             <ul class="nav pull-right social visible-desktop">
-              <!--
               <li class="divider-vertical"></li>
               {% if site.author.github %}
                 <li>
@@ -107,7 +107,6 @@
                   </a>
                 </li>
               {% endif %}
-            -->
             </ul>
           </div>
         </div>

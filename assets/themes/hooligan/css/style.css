@@ -17,6 +17,7 @@ body {
   height: 100%;
   font-family: 'Oxygen', sans-serif;
   font-size: 14px;
+  height: 100%;
 }
 
 /* line 26, ../_sass/_base.scss */
@@ -416,4 +417,20 @@ div.sidebar section img.icon {
 .lf_user_loggedout:hover {
   color: #E5FECC !important;
   text-decoration: none !important;
+}
+
+img.avatar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.about-me-left {
+  width: 300px;
+  height: 100%;
+}
+
+.about-me-right {
+}
+
+div.about-me-social {
+  margin-top: 10px;
 }
